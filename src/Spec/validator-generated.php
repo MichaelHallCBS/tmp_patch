@@ -2382,6 +2382,9 @@ class ValidationRulesFactory {
   $o_571->supported_layouts = [AmpLayoutLayout::FILL, AmpLayoutLayout::FIXED, AmpLayoutLayout::FIXED_HEIGHT, AmpLayoutLayout::FLEX_ITEM, AmpLayoutLayout::NODISPLAY, AmpLayoutLayout::RESPONSIVE];
   $o_565->amp_layout = $o_571;
   $o_565->disallowed_ancestor = ['amp-sidebar'];
+  $o_1288 = new AttrSpec();
+  $o_1288->name = 'rtc-config';
+  $o_565->attrs[] = $o_1288;
   $o_0->tags[] = $o_565;
   $o_572 = new TagSpec();
   $o_572->tag_name = 'amp-embed';
